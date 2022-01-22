@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+/* Header */
+header{
+    background-color: #3555c8;
+}
+ul{
+    margin-left: 70px;
+}
+ul h2{
+    padding-top: 6px;
+}
+ul li{
+    display: inline-block;
+    padding: 17px 20px 20px 20px;
+    overflow: hidden;
+    margin-left: 1px;
+    color: white;
+}
+ul span{
+    overflow: hidden;
+    margin-left: 400px;
+}
+ul span li{
+    transition: 200ms;
+}
+ul span li:hover{
+    border-bottom: 3px white solid;
+    background-color: #d8bfd840;
+    padding: 20px;
+}
+/* End Header */
+/* Ads */
+.ads{
+    background-color: #f0f0f0;
+    color: #ccc;
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+/* End Ads */
+.main-card{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.main-card img{
+    width:360.490px;
+    height:212.240px;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+    
+    /* border: 0.5px gray solid */
+}
+.card-content{
+    width: 90%;
+    padding: 20px;
+}
+.card-content p{
+    padding: 20px 0 20px 0;
+}
+.card:hover h3{
+    text-decoration: underline;
+}
+img:hover .card{
+    background-color: hotpink;
+}
