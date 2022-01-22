@@ -26,6 +26,10 @@ nav{
     margin-left: 1px;
     color: white;
 }
+.ul li a{
+    text-decoration: none;
+    color: white;
+}
 ul span{
     overflow: hidden;
     margin-left: 400px;
@@ -141,3 +145,43 @@ ul span li:hover{
     padding-top: 20px;
 }
 /* End footer */
+
+
+/* Contact - CSS */
+.main-contact{
+    background-color: rgba(255, 0, 0, 0.267);
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    /* text-align: center; */
+    margin-top: 100px;
+    padding: 40px;
+}
+.form input{
+    margin-top: 40px;
+    padding-left: 10px;
+    width: 40%;
+    display: inline-block;
+    height: 40px;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form textarea{
+    display: block;
+    margin-top: 20px;
+    width: 81%;
+    height: 200px;
+    padding: 10px;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form button{
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
